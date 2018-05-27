@@ -1,0 +1,109 @@
+<div class="backgroundlanding" style="background-image: url('<%= image_path 'today-pink-is-my-mood.jpg' %>');">
+  <div class="logo">
+
+      <%= image_tag 'logo.png'%>
+
+
+  </div>
+
+
+  <div class="col-sm-8">
+    <div class="banner">
+    <div class="banner-content">
+      <h2>Le rendez-vous entre votre marque et les femmes</h2>
+      <h4>Eva Media propose des solutions divertissements et des opportunités marketing dans des salons de beautés à Paris</h4>
+
+
+
+    </div>
+  </div>
+
+  </div>
+
+
+
+
+  <div class="col-sm-4">
+    <div class="boxform">
+      <div class="column-form">
+        <%= simple_form_for(@prospectt) do |f| %>
+          <%= f.error_notification %>
+          <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+          <div class="form-inputs" style="margin-top: 15px;">
+            <div class="col-xs-6">
+              <%= f.input :first_name, label: false,  placeholder: "Prénom",   required: true %>
+              <%= f.input :company, label: 'Entreprise',label: false,  placeholder: "Entreprise", required: true  %>
+
+            </div>
+            <div class="col-xs-6">
+              <%= f.input :last_name, label: 'Nom',label: false,  placeholder: "Nom",  required: true  %>
+              <%= f.input :job_title, label: 'Poste',label: false,  placeholder: 'Poste' , required: true %>
+            </div>
+            <div class="col-xs-12">
+              <%= f.input :mail, label: 'Adresse email',label: false, placeholder: 'Adresse' , required: true  %>
+              <%= f.input :phone, label: 'Téléphone',label: false, placeholder: 'Téléphone', required: true  %>
+            </div>
+
+          </div>
+
+          <div class="form-actions btn-treehouse">
+            <center><%= f.submit "Envoyer", class: "btn btn-primary" %></center>
+          </div>
+          <div class="rgpd">
+            <p>En fournissant votre adresse e-mail, (ou vos données personnelles ci-dessus) vous consentez expressément à leur stockage dans notre base de données pour en faire usage afin de vous envoyer des messages à des fins commerciales, marketing ou pour vous notifier d’importants changements apportés à nos services. Vous pouvez vous désabonner ou modifier votre adresse e-mail à tout moment en suivant les instructions mentionnées dans chaque communication par e-mail ou en envoyant un e-mail à privacy@evamedia.com</p>
+        </div>
+        <% end %>
+      </div>
+    </div>
+
+</div>
+
+<div class="footer scroll">
+
+    <a href="#usp">
+    <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+  </a>
+
+  </div>
+</div>
+
+<center>
+<div class="container" >
+  <div class="col-xs-12 text-xs-center" >
+    <h3 class="text-thin" >Pourquoi annoncer dans nos salons?</h3><br></br>
+  </div>
+  <div class="row" >
+    <div class="col-xs-12" >
+      <ul class="row justify-center justify-start-lg text-xs-center" >
+        <li class="col-md-4" style="list-style:none;" >
+          <img src="<%= image_path 'television.png' %>" alt="Publicités pour femmes" style="width: 50px;" >
+          <h4 >Une mémorisation record</h4>
+          <p >45 minutes de relaxation, sans distraction  propice à la mediation de votre message</p>
+        </li>
+        <li class="col-md-4" style="list-style:none;">
+          <img src="<%= image_path 'growth.png' %>" alt="Espace média rentable" style="width: 50px;" d>
+          <h4 >Maximiser votre ROI</h4>
+          <p >Un CPM attractif, zéro frais de mise en service et un suivi de vos performances en temps réel.</p>
+        </li>
+        <li class="col-md-4" style="list-style:none;" >
+          <img src="<%= image_path 'hand-shake.png' %>" alt="" style="width: 50px;" >
+          <h4 >Un partenaire à votre écoute</h4>
+          <p >Plus qu'un simple fournisseur d'espace média, nous vous accompagnons dans l'integration dans notre réseau.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</center>
+<br></br>
+      <div class="footer">
+  <div class="footer-links" id="usp">
+    <a href="#">Cgv</a>
+  </div>
+  <div class="footer-copyright">
+    © 2018 Eva Media
+  </div>
+</div>
+
+
