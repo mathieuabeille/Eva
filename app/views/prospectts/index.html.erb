@@ -11,6 +11,7 @@
         <th>Entreprise</th>
         <th>Poste</th>
         <th>Téléphone</th>
+        <th>Message</th>
         <th colspan="3"></th>
       </tr>
     </thead>
@@ -26,6 +27,7 @@
           <td><% if prospectt.present? %><%= prospectt.phone %> <% else %> <% end %></td>
           <td><%= link_to 'Edit', edit_prospectt_path(prospectt) %></td>
           <td><%= link_to 'Destroy', prospectt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><% if prospectt.present? %><%= prospectt.message %> <% else %> <% end %></td>
         </tr>
       <% end %>
     </tbody>

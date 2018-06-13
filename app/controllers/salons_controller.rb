@@ -28,7 +28,7 @@ class SalonsController < ApplicationController
 
     respond_to do |format|
       if @salon.save
-        format.html { redirect_to @salon }
+        format.html { redirect_to { redirect_to "/pages/thanks" } }
         format.json { render :show, status: :created, location: @salon }
       else
         format.html { render :new }
@@ -69,6 +69,6 @@ class SalonsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def salon_params
-      params.require(:salon).permit(:first_name, :last_name, :salon, :phone, :email, :adress, :postal_code)
+      params.require(:salon).permit(:first_name,:message, :last_name, :salon, :phone, :email, :adress, :postal_code)
     end
 end

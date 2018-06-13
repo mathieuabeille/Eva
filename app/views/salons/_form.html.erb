@@ -1,7 +1,7 @@
 <div class="backgroundlanding" style="background-image: url('<%= image_path 'today-pink-is-my-mood.jpg' %>');">
   <div class="logo">
 
-      <%= image_tag 'logo.png'%>
+      <%= image_tag 'logo.png', style: 'width: 250px;' %>
 
 
   </div>
@@ -44,6 +44,7 @@
               <%= f.input :email, label: 'Téléphone',label: false, placeholder: 'e-mail', required: true  %>
               <%= f.input :salon, label: 'Adresse email',label: false, placeholder: 'Salon' , required: true  %>
               <%= f.input :phone, label: 'Téléphone',label: false, placeholder: 'Téléphone', required: true  %>
+              <%= f.input :message, label: 'frfgtr',label: false, placeholder: 'Votre message (facultatif)', required: false  %>
 
             </div>
 

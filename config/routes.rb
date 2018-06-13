@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :salons
   resources :prospectts
   devise_for :users
+  get "/pages/:page" => "pages#show"
 
 
   root to: 'prospectts#new'

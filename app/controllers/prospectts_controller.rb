@@ -28,7 +28,7 @@ class ProspecttsController < ApplicationController
 
     respond_to do |format|
       if @prospectt.save
-        format.html { redirect_to 'pages/home' }
+        format.html { redirect_to "/pages/thanks" }
         format.json { render :show, status: :created, location: @prospectt }
       else
         format.html { render :new }
@@ -69,6 +69,6 @@ class ProspecttsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def prospectt_params
-      params.require(:prospectt).permit(:first_name, :last_address, :mail, :company, :job_title, :phone, :last_name)
+      params.require(:prospectt).permit(:first_name, :last_address, :mail, :company, :job_title, :phone, :last_name, :message)
     end
 end
