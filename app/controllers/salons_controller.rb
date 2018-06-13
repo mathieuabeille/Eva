@@ -26,15 +26,15 @@ class SalonsController < ApplicationController
   def create
     @salon = Salon.new(salon_params)
 
-    respond_to do |format|
+
       if @salon.save
-        format.html { redirect_to { redirect_to "/pages/thanks" } }
-        format.json { render :show, status: :created, location: @salon }
+        redirect_to "/pages/thanks"
+
       else
-        format.html { render :new }
-        format.json { render json: @salon.errors, status: :unprocessable_entity }
+        render :new
+
       end
-    end
+
   end
 
   # PATCH/PUT /salons/1

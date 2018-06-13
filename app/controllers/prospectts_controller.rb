@@ -26,15 +26,15 @@ class ProspecttsController < ApplicationController
   def create
     @prospectt = Prospectt.new(prospectt_params)
 
-    respond_to do |format|
+
       if @prospectt.save
-        format.html { redirect_to "/pages/thanks" }
-        format.json { render :show, status: :created, location: @prospectt }
+        redirect_to "/pages/thanks"
+
       else
-        format.html { render :new }
-        format.json { render json: @prospectt.errors, status: :unprocessable_entity }
+       render :new
+
       end
-    end
+
   end
 
   # PATCH/PUT /prospectts/1
