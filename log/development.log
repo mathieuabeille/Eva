@@ -5896,3 +5896,931 @@ Processing by ProspecttsController#new as HTML
 Completed 200 OK in 217ms (Views: 165.3ms | ActiveRecord: 6.8ms)
 
 
+  [1m[35m (11.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(999550190689486590)[0m
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateSalons (20180603173623)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (51.1ms)[0m  [1m[35mCREATE TABLE "salons" ("id" bigserial primary key, "first_name" character varying, "last_name" character varying, "salon" character varying, "phone" character varying, "email" character varying, "adress" character varying, "postal_code" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180603173623"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (21.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(999550190689486590)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-06-03 19:46:12 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (1469.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (1474.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 1565ms (Views: 1533.0ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/salon" for 127.0.0.1 at 2018-06-03 19:46:26 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salon"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 19:47:00 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (2.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (8.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 156ms (Views: 72.3ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 19:47:05 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (8.7ms)
+  Rendered salons/new.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 2.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    26:   <div class="col-sm-4">
+    27:     <div class="boxform">
+    28:       <div class="column-form">
+    29:         <%= simple_form_for(@prospectt) do |f| %>
+    30:           <%= f.error_notification %>
+    31:           <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+    32: 
+  
+app/views/salons/_form.html.erb:29:in `_app_views_salons__form_html_erb___3629113428986413041_70271800554680'
+app/views/salons/new.html.erb:3:in `_app_views_salons_new_html_erb___171070727213855236_70271781674160'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 19:48:00 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (6.9ms)
+  Rendered salons/new.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    26:   <div class="col-sm-4">
+    27:     <div class="boxform">
+    28:       <div class="column-form">
+    29:         <%= simple_form_for(@prospectt) do |f| %>
+    30:           <%= f.error_notification %>
+    31:           <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+    32: 
+  
+app/views/salons/_form.html.erb:29:in `_app_views_salons__form_html_erb___3629113428986413041_70271838487080'
+app/views/salons/new.html.erb:3:in `_app_views_salons_new_html_erb___171070727213855236_70271838525820'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 19:48:39 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.8ms)
+  Rendered salons/new.html.erb within layouts/application (20.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 76.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 19:48:42 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (42.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (48.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 136ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 19:49:37 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.8ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (3.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 79ms (Views: 56.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 19:49:39 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.5ms)
+  Rendered salons/new.html.erb within layouts/application (20.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 74.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 19:50:24 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (22.0ms)
+  Rendered salons/new.html.erb within layouts/application (24.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 92ms (Views: 86.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/salons" for 127.0.0.1 at 2018-06-03 19:52:07 +0200
+Processing by SalonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udmIfkqogNcVWSwaDR6wmNDBj6YPUu0qoxKI5gN20yw5ykpL7WnEcYv9mBky+yGPqoprVE64cnF25sdRh0gW7g==", "salon"=>{"first_name"=>"Solenn", "adress"=>"157 rue Marcadet", "last_name"=>"Huguen", "postal_code"=>"75018", "email"=>"solenn-hugen@hotmail.com", "salon"=>"Venus Beauté", "phone"=>"0672300110"}, "commit"=>"Envoyer"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.9ms)[0m  [1m[32mINSERT INTO "salons" ("first_name", "last_name", "salon", "phone", "email", "adress", "postal_code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["first_name", "Solenn"], ["last_name", "Huguen"], ["salon", "Venus Beauté"], ["phone", "0672300110"], ["email", "solenn-hugen@hotmail.com"], ["adress", "157 rue Marcadet"], ["postal_code", 75018], ["created_at", "2018-06-03 17:52:07.552881"], ["updated_at", "2018-06-03 17:52:07.552881"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons/1
+Completed 302 Found in 38ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/salons/1" for 127.0.0.1 at 2018-06-03 19:52:07 +0200
+Processing by SalonsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT  "salons".* FROM "salons" WHERE "salons"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/show.html.erb within layouts/application
+  Rendered salons/show.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 95ms (Views: 82.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 19:52:19 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (24.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (27.6ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/" for 127.0.0.1 at 2018-06-03 19:56:31 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (3.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 101ms (Views: 90.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 19:56:57 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.2ms)
+  Rendered prospectts/new.html.erb within layouts/application (25.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 86ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/prospectts" for 127.0.0.1 at 2018-06-03 19:57:34 +0200
+Processing by ProspecttsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kqvMO0CYD+ESEdvzySIRgyGSaRJlG2SyfiLpN56r4XwSuA4O51lLR4y1b/D2x4CUW9mN4CTx++mr1qaAGpUkvg==", "prospectt"=>{"first_name"=>"rg", "company"=>"fb", "last_name"=>"fefge", "job_title"=>"fbgr", "mail"=>"fdbg", "phone"=>"febrg"}, "commit"=>"Envoyer"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "prospectts" ("first_name", "mail", "company", "job_title", "phone", "created_at", "updated_at", "last_name") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "rg"], ["mail", "fdbg"], ["company", "fb"], ["job_title", "fbgr"], ["phone", "febrg"], ["created_at", "2018-06-03 17:57:34.677249"], ["updated_at", "2018-06-03 17:57:34.677249"], ["last_name", "fefge"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/prospectts/29
+Completed 302 Found in 47ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/prospectts/29" for 127.0.0.1 at 2018-06-03 19:57:34 +0200
+Processing by ProspecttsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mProspectt Load (0.4ms)[0m  [1m[34mSELECT  "prospectts".* FROM "prospectts" WHERE "prospectts"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering prospectts/show.html.erb within layouts/application
+  Rendered prospectts/show.html.erb within layouts/application (14.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 105ms (Views: 95.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:03:24 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.7ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (9.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 144ms (Views: 108.0ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:09:45 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (39.1ms)
+  Rendered prospectts/new.html.erb within layouts/application (42.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 122ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:10:38 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (25.1ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 96ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Salon" for 127.0.0.1 at 2018-06-03 20:11:16 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Salon"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:11:49 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (19.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (21.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 87ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:11:53 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.5ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 81ms (Views: 64.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:12:22 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (20.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (22.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 89ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:12:27 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (1.0ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (6.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 109ms (Views: 93.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:12:50 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.4ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 95ms (Views: 83.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:13:13 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 74ms (Views: 69.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:15:20 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.8ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 92ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:15:23 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 130ms (Views: 108.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:16:57 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 89ms (Views: 82.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/salons/1/edit" for 127.0.0.1 at 2018-06-03 20:17:07 +0200
+Processing by SalonsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT  "salons".* FROM "salons" WHERE "salons"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/edit.html.erb within layouts/application
+  Rendered salons/_form.html.erb (44.9ms)
+  Rendered salons/edit.html.erb within layouts/application (48.4ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 142ms (Views: 125.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:17:26 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (34.8ms)
+  Rendered salons/new.html.erb within layouts/application (38.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 117ms (Views: 109.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:17:39 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (20.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 109ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons_new" for 127.0.0.1 at 2018-06-03 20:17:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salons_new"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/salon/new" for 127.0.0.1 at 2018-06-03 20:17:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/salon/new"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:17:58 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.4ms)
+  Rendered salons/new.html.erb within layouts/application (20.2ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 85ms (Views: 80.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:18:28 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (19.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (21.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:18:40 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.4ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (4.1ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 73.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:23:28 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 79ms (Views: 73.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:23:30 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (492.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (496.1ms)
+Completed 500 Internal Server Error in 504ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `salons_new_path' for #<#<Class:0x00007fd2d7684168>:0x00007fd2dfd79010>
+Did you mean?  salons_path):
+    100:       <div class="footer">
+    101:   <div class="footer-links" id="usp">
+    102:     <a href="#">Cgv</a>
+    103:     <%= link_to 'Salon', salons_new_path %>
+    104:   </div>
+    105:   <div class="footer-copyright">
+    106:     © 2018 Eva Media
+  
+app/views/prospectts/_form.html.erb:103:in `_app_views_prospectts__form_html_erb__1894327220564288110_70271837691440'
+app/views/prospectts/new.html.erb:1:in `_app_views_prospectts_new_html_erb__1123124913709882243_70271837654380'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:23:45 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (264.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (266.8ms)
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `salons_new_path' for #<#<Class:0x00007fd2d7684168>:0x00007fd2de518ed0>
+Did you mean?  salons_path):
+    100:       <div class="footer">
+    101:   <div class="footer-links" id="usp">
+    102:     <a href="#">Cgv</a>
+    103:     <%= link_to salons_new_path, 'Salon'  %>
+    104:   </div>
+    105:   <div class="footer-copyright">
+    106:     © 2018 Eva Media
+  
+app/views/prospectts/_form.html.erb:103:in `_app_views_prospectts__form_html_erb__1894327220564288110_70271824806360'
+app/views/prospectts/new.html.erb:1:in `_app_views_prospectts_new_html_erb__1123124913709882243_70271824874660'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:23:51 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (264.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (267.9ms)
+Completed 500 Internal Server Error in 280ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `salon_new_path' for #<#<Class:0x00007fd2d7684168>:0x00007fd2e091ba80>
+Did you mean?  salon_path
+               salons_path):
+    100:       <div class="footer">
+    101:   <div class="footer-links" id="usp">
+    102:     <a href="#">Cgv</a>
+    103:     <%= link_to salon_new_path, 'Salon'  %>
+    104:   </div>
+    105:   <div class="footer-copyright">
+    106:     © 2018 Eva Media
+  
+app/views/prospectts/_form.html.erb:103:in `_app_views_prospectts__form_html_erb__1894327220564288110_70271844177580'
+app/views/prospectts/new.html.erb:1:in `_app_views_prospectts_new_html_erb__1123124913709882243_70271840338400'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:24:24 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (9.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (11.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 79ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-03 20:24:28 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.4ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 71ms (Views: 64.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:24:37 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (373.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (375.7ms)
+Completed 500 Internal Server Error in 386ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `salons_new_path' for #<#<Class:0x00007fd2d7684168>:0x00007fd2d960eec0>
+Did you mean?  salons_path):
+    100:       <div class="footer">
+    101:   <div class="footer-links" id="usp">
+    102:     <a href="#">Cgv</a>
+    103:       <%= link_to 'salon', salons_new_path %>
+    104:   </div>
+    105:   <div class="footer-copyright">
+    106:     © 2018 Eva Media
+  
+app/views/prospectts/_form.html.erb:103:in `_app_views_prospectts__form_html_erb__1894327220564288110_70271834452200'
+app/views/prospectts/new.html.erb:1:in `_app_views_prospectts_new_html_erb__1123124913709882243_70271783435340'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:24:59 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (16.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (18.0ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 86ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:25:03 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.6ms)
+  Rendered salons/new.html.erb within layouts/application (28.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 135ms (Views: 127.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/salons" for 127.0.0.1 at 2018-06-03 20:26:34 +0200
+Processing by SalonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"chA9Z0Mg1ZX1Itxe1c308pJTSa6aTv5Eh9DOuMsyUuzyA/9S5OGRM2uGaF3qKGXl6BitXNukYR9SJIEPTwyXLg==", "salon"=>{"first_name"=>"dsfs", "adress"=>"efd", "last_name"=>"ssvef", "postal_code"=>"1e1", "email"=>"veffev@fr.fr", "salon"=>"efve", "phone"=>"efve"}, "commit"=>"Envoyer"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "salons" ("first_name", "last_name", "salon", "phone", "email", "adress", "postal_code", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["first_name", "dsfs"], ["last_name", "ssvef"], ["salon", "efve"], ["phone", "efve"], ["email", "veffev@fr.fr"], ["adress", "efd"], ["postal_code", 1], ["created_at", "2018-06-03 18:26:34.731337"], ["updated_at", "2018-06-03 18:26:34.731337"]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons/2
+Completed 302 Found in 11ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/salons/2" for 127.0.0.1 at 2018-06-03 20:26:34 +0200
+Processing by SalonsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT  "salons".* FROM "salons" WHERE "salons"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering salons/show.html.erb within layouts/application
+  Rendered salons/show.html.erb within layouts/application (3.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 55.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:27:39 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (40.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (55.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 224ms (Views: 136.3ms | ActiveRecord: 48.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:34:04 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (32.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (42.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4614ms (Views: 4605.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:35:00 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (42.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (47.6ms)
+Completed 500 Internal Server Error in 1173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  opacity: 0": expected ";", was ".;"):
+     8: 
+     9:     <%= csrf_meta_tags %>
+    10:     <%= action_cable_meta_tag %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    12:     <%= favicon_link_tag 'favicon.png' %>
+    13:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    14:   </head>
+  
+app/assets/stylesheets/components/_navbar.scss:114
+app/assets/stylesheets/components/_index.scss:3
+app/assets/stylesheets/application.scss:14
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__3005833382809674482_70271846769280'
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:35:11 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (16.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (18.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 4424ms (Views: 4420.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:36:51 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (25.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (29.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 115ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:36:54 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (364.7ms)
+  Rendered salons/new.html.erb within layouts/application (366.7ms)
+Completed 500 Internal Server Error in 470ms (ActiveRecord: 48.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_prospectts_path' for #<#<Class:0x00007fd2d941d760>:0x00007fd2d9427300>
+Did you mean?  new_prospectt_path
+               new_prospectt_url):
+    102:       <div class="footer">
+    103:   <div class="footer-links" id="usp">
+    104:     <a href="#">Cgv</a>
+    105:     <%= link_to 'Annonceur', new_prospectts_path %>
+    106: 
+    107: 
+    108: 
+  
+app/views/salons/_form.html.erb:105:in `_app_views_salons__form_html_erb___3629113428986413041_70271823233620'
+app/views/salons/new.html.erb:3:in `_app_views_salons_new_html_erb___171070727213855236_70271782416840'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:37:05 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (378.9ms)
+  Rendered salons/new.html.erb within layouts/application (381.9ms)
+Completed 500 Internal Server Error in 392ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_prospects_path' for #<#<Class:0x00007fd2d941d760>:0x00007fd2e44cb968>
+Did you mean?  new_prospectt_path
+               new_prospectt_url):
+    102:       <div class="footer">
+    103:   <div class="footer-links" id="usp">
+    104:     <a href="#">Cgv</a>
+    105:     <%= link_to 'Annonceur', new_prospects_path %>
+    106: 
+    107: 
+    108: 
+  
+app/views/salons/_form.html.erb:105:in `_app_views_salons__form_html_erb___3629113428986413041_70271882597320'
+app/views/salons/new.html.erb:3:in `_app_views_salons_new_html_erb___171070727213855236_70271875042120'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:37:24 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (271.7ms)
+  Rendered salons/new.html.erb within layouts/application (273.9ms)
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_prospectts_path' for #<#<Class:0x00007fd2d941d760>:0x00007fd2dff63e98>
+Did you mean?  new_prospectt_path
+               new_prospectt_url):
+    102:       <div class="footer">
+    103:   <div class="footer-links" id="usp">
+    104:     <a href="#">Cgv</a>
+    105:     <%= link_to 'Annonceur', new_prospectts_path %>
+    106: 
+    107: 
+    108: 
+  
+app/views/salons/_form.html.erb:105:in `_app_views_salons__form_html_erb___3629113428986413041_70271838573640'
+app/views/salons/new.html.erb:3:in `_app_views_salons_new_html_erb___171070727213855236_70271838683900'
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:38:21 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.7ms)
+  Rendered salons/new.html.erb within layouts/application (19.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 88.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/prospectts/new" for 127.0.0.1 at 2018-06-03 20:38:24 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (14.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (18.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:38:26 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (14.3ms)
+  Rendered salons/new.html.erb within layouts/application (16.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 77.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/prospectts/new" for 127.0.0.1 at 2018-06-03 20:38:38 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (11.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (13.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 81ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-03 20:41:09 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.6ms)
+  Rendered salons/new.html.erb within layouts/application (24.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 102ms (Views: 95.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-03 20:46:07 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (38.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (40.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 116ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-06-03 20:52:24 +0200
+  
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  
+config/routes.rb:5:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/homes" for 127.0.0.1 at 2018-06-03 20:52:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/homes"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'

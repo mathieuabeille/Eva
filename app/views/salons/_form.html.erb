@@ -26,23 +26,25 @@
   <div class="col-sm-4">
     <div class="boxform">
       <div class="column-form">
-        <%= simple_form_for(@prospectt) do |f| %>
+        <%= simple_form_for(@salon) do |f| %>
           <%= f.error_notification %>
           <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
           <div class="form-inputs" style="margin-top: 15px;">
             <div class="col-xs-6">
               <%= f.input :first_name, label: false,  placeholder: "Prénom",   required: true %>
-              <%= f.input :company, label: 'Entreprise',label: false,  placeholder: "Entreprise", required: true  %>
+              <%= f.input :adress, label: 'Entreprise',label: false,  placeholder: "Adresse", required: true  %>
 
             </div>
             <div class="col-xs-6">
               <%= f.input :last_name, label: 'Nom',label: false,  placeholder: "Nom",  required: true  %>
-              <%= f.input :job_title, label: 'Poste',label: false,  placeholder: 'Poste' , required: true %>
+              <%= f.input :postal_code, label: 'Poste',label: false,  placeholder: 'Code Postal' , required: true %>
             </div>
             <div class="col-xs-12">
-              <%= f.input :mail, label: 'Adresse email',label: false, placeholder: 'Email' , required: true  %>
+              <%= f.input :email, label: 'Téléphone',label: false, placeholder: 'e-mail', required: true  %>
+              <%= f.input :salon, label: 'Adresse email',label: false, placeholder: 'Salon' , required: true  %>
               <%= f.input :phone, label: 'Téléphone',label: false, placeholder: 'Téléphone', required: true  %>
+
             </div>
 
           </div>
@@ -100,7 +102,7 @@
       <div class="footer">
   <div class="footer-links" id="usp">
     <a href="#">Cgv</a>
-      <%= link_to 'Salon', new_salon_path %>
+    <%= link_to 'Annonceur', new_prospectt_path %>
   </div>
   <div class="footer-copyright">
     © 2018 Eva Media

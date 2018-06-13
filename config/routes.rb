@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  resources :salons
   resources :prospectts
   devise_for :users
+  match '/home' => 'pages#home'
+
   root to: 'prospectts#new'
 
     resources :prospects, only: [:create, :index, :destroy, :edit]
