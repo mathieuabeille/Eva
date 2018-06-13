@@ -1,5 +1,6 @@
 class SalonsController < ApplicationController
   before_action :set_salon, only: [:show, :edit, :update, :destroy]
+  skip_before_action :authenticate_user!, only: [:home, :new, :create, :show]
 
   # GET /salons
   # GET /salons.json
