@@ -26,16 +26,11 @@ class SalonsController < ApplicationController
   # POST /salons.json
   def create
     @salon = Salon.new(salon_params)
-
-
       if @salon.save
         redirect_to "/pages/thanks"
-
       else
         render :new
-
-      end
-
+    end
   end
 
   # PATCH/PUT /salons/1

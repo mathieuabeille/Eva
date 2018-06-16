@@ -1,11 +1,22 @@
 Rails.application.routes.draw do
   resources :salons
-  resources :prospectts
-  devise_for :users
+  resources :annonceurs
+ devise_scope :user do
+    get "/sign_in" => "devise/sessions#new", as: "new_user_session" # custom path to login/sign_in
+    post "/sign_in" => "devise/sessions#create", as: "user_session" # custom path to login/sign_in
+    get "/sign_out" => "devise/sessions#destroy", as: "destroy_user_session"
+    get "/B21zukt938lama272kutoni" => "devise/registrations#new", as: "new_user_registration" # custom path to sign_up/registration
+    post "/B21zukt938lama272kutoni" => "devise/registrations#create", as: "user_registration" # custom path to login/sign_in
+  end
+
+  # Below for all other routes:
+
+
   get "/pages/:page" => "pages#show"
 
 
-  root to: 'prospectts#new'
+
+  root to: 'annonceurs#new'
 
     resources :prospects, only: [:create, :index, :destroy, :edit]
 

@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180613175449) do
+ActiveRecord::Schema.define(version: 20180616163431) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "annonceurs", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_address"
+    t.string "mail"
+    t.string "company"
+    t.string "job_title"
+    t.string "phone"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "last_name"
+    t.text "message"
+  end
 
   create_table "prospects", force: :cascade do |t|
     t.string "first_name"
@@ -25,19 +38,6 @@ ActiveRecord::Schema.define(version: 20180613175449) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "comments"
-  end
-
-  create_table "prospectts", force: :cascade do |t|
-    t.string "first_name"
-    t.string "last_address"
-    t.string "mail"
-    t.string "company"
-    t.string "job_title"
-    t.string "phone"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "last_name"
-    t.text "message"
   end
 
   create_table "salons", force: :cascade do |t|

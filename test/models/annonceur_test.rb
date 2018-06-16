@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ProspecttTest < ActiveSupport::TestCase
+class AnnonceurTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

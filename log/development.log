@@ -8909,3 +8909,2323 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 134ms (Views: 129.9ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:51:35 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (136.2ms)
+  Rendered prospectts/new.html.erb within layouts/application (145.9ms)
+Completed 500 Internal Server Error in 570ms (ActiveRecord: 124.1ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$gray".):
+     8: 
+     9:     <%= csrf_meta_tags %>
+    10:     <%= action_cable_meta_tag %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    12:     <%= favicon_link_tag 'favicon.png' %>
+    13:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    14:   </head>
+  
+app/assets/stylesheets/config/_bootstrap_variables.scss:13
+app/assets/stylesheets/application.scss:4
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__3005833382809674482_70271890298520'
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:52:27 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (25.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (28.9ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$light-gray".):
+     8: 
+     9:     <%= csrf_meta_tags %>
+    10:     <%= action_cable_meta_tag %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    12:     <%= favicon_link_tag 'favicon.png' %>
+    13:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    14:   </head>
+  
+app/assets/stylesheets/config/_bootstrap_variables.scss:9
+app/assets/stylesheets/application.scss:4
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__3005833382809674482_70271838094220'
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:52:45 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (18.1ms)
+  Rendered prospectts/new.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$yellow".):
+     8: 
+     9:     <%= csrf_meta_tags %>
+    10:     <%= action_cable_meta_tag %>
+    11:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    12:     <%= favicon_link_tag 'favicon.png' %>
+    13:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    14:   </head>
+  
+app/assets/stylesheets/config/_bootstrap_variables.scss:16
+app/assets/stylesheets/application.scss:4
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__3005833382809674482_70271886033020'
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:53:10 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (23.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (26.3ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 4170ms (Views: 4167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:56:48 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (30.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (36.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 4097ms (Views: 4089.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:56:57 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (18.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (21.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 14:58:58 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (98.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (112.7ms)
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_flashes.html.erb (3.4ms)
+Completed 200 OK in 4266ms (Views: 4252.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 15:00:11 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (28.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (30.7ms)
+  Rendered salons/new.html.erb within layouts/application (35.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 787ms (Views: 99.4ms | ActiveRecord: 163.8ms)
+
+
+Started GET "/salons/" for 127.0.0.1 at 2018-06-16 15:00:22 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (6.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.4ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (7.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 76ms (Views: 62.6ms | ActiveRecord: 6.8ms)
+
+
+Started DELETE "/salons/2" for 127.0.0.1 at 2018-06-16 15:00:31 +0200
+Processing by SalonsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tzrSb/+s8jOD+PNB7r3k2cn6DSm//NRMcZpG7Kuw9X03KRBaWG22lR1cR0LRWHXOs7Hp2/4WSxekbglbL44wvw==", "id"=>"2"}
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSalon Load (18.2ms)[0m  [1m[34mSELECT  "salons".* FROM "salons" WHERE "salons"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (17.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (34.7ms)[0m  [1m[31mDELETE FROM "salons" WHERE "salons"."id" = $1[0m  [["id", 2]]
+  [1m[35m (12.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons
+Completed 302 Found in 113ms (ActiveRecord: 89.5ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 15:00:31 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (6.7ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (11.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 89ms (Views: 77.7ms | ActiveRecord: 7.2ms)
+
+
+Started DELETE "/salons/3" for 127.0.0.1 at 2018-06-16 15:00:35 +0200
+Processing by SalonsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2t3Zpp5aE34t/VZxjQkaBtP/coW8aoMVBbDNzhQVTAxazhuTOZtX2LNZ4nKy7IsRqbSWd/2AHE7QRIJ5kCuJzg==", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSalon Load (0.3ms)[0m  [1m[34mSELECT  "salons".* FROM "salons" WHERE "salons"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.0ms)[0m  [1m[31mDELETE FROM "salons" WHERE "salons"."id" = $1[0m  [["id", 3]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons
+Completed 302 Found in 20ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 15:00:35 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.4ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (3.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 70ms (Views: 65.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:08:49 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (123.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (153.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 303ms (Views: 283.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:09:34 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (69.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (78.5ms)
+  Rendered shared/_navbar.html.erb (3.0ms)
+  Rendered shared/_flashes.html.erb (1.4ms)
+Completed 200 OK in 192ms (Views: 180.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:10:10 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (27.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (33.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 119ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:13:14 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:13:27 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:14:09 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:9:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:14:43 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (30.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (35.5ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (2.1ms)
+Completed 200 OK in 172ms (Views: 117.6ms | ActiveRecord: 33.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:16:05 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:9:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:16:41 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (25.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (28.8ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (2.2ms)
+Completed 200 OK in 161ms (Views: 101.0ms | ActiveRecord: 39.1ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 15:16:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 105ms (ActiveRecord: 32.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:16:52 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (45.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (49.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (2.3ms)
+Completed 200 OK in 132ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 15:17:04 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:17:04 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (25.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 101ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 15:18:21 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 108ms (ActiveRecord: 23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:18:21 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (20.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.3ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 132ms (Views: 88.0ms | ActiveRecord: 21.6ms)
+
+
+Started GET "/prospectts" for 127.0.0.1 at 2018-06-16 15:18:34 +0200
+Processing by ProspecttsController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:18:34 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (58.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 134ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 15:18:41 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (8.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (28.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 15:19:40 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (25.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 179ms (Views: 110.3ms | ActiveRecord: 28.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 15:19:46 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (19.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 143ms (Views: 89.9ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:21:48 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:9:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:22:02 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected ':', expecting =>
+...evise/registrations#new", :as :new_user_session# custom path...
+...                               ^):
+  
+config/routes.rb:9: syntax error, unexpected ':', expecting =>
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:22:33 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected =>
+    get "/sign_up" =>  => :new_user_session# custom pa...
+                         ^):
+  
+config/routes.rb:9: syntax error, unexpected =>
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:23:39 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:23:59 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:24:38 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    get "/sign_in"  as: :new_user_session
+                      ^):
+  
+config/routes.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:24:42 +0200
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:24:50 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:24:57 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (19.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (22.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 107ms (Views: 85.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 15:25:04 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (44.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.4ms)
+Completed 200 OK in 287ms (Views: 161.2ms | ActiveRecord: 25.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:25:08 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (19.4ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flashes.html.erb (2.0ms)
+Completed 200 OK in 110ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 15:25:25 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (16.3ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 99ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 15:28:22 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:9:in `block (2 levels) in <top (required)>'
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:28:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:28:37 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (41.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (43.9ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 171ms (Views: 127.4ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 15:28:43 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (5.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (54.1ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (3.2ms)
+Completed 200 OK in 268ms (Views: 184.7ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:28:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (18.6ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 103ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:30:09 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:10:in `block (2 levels) in <top (required)>'
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:30:27 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+    post "/admin" => "devise/sessions#create", :as => :user_session
+          ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected =>, expecting keyword_end
+    post "/admin" => "devise/sessions#create", :as => :user_session
+                    ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected ',', expecting keyword_end
+    post "/admin" => "devise/sessions#create", :as => :user_session
+                                              ^):
+  
+config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:11: syntax error, unexpected =>, expecting keyword_end
+config/routes.rb:11: syntax error, unexpected ',', expecting keyword_end
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:30:33 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+    post "/admin" => "devise/sessions#create", :as => :user_session,
+          ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected =>, expecting keyword_end
+    post "/admin" => "devise/sessions#create", :as => :user_session,
+                    ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected ',', expecting keyword_end
+    post "/admin" => "devise/sessions#create", :as => :user_session,
+                                              ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:11: syntax error, unexpected =>, expecting keyword_end
+config/routes.rb:11: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:30:37 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:30:51 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:11: syntax error, unexpected keyword_end
+/Users/mathieuabeille/code/Eva/config/routes.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:11: syntax error, unexpected keyword_end
+config/routes.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:31:02 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:10:in `block (2 levels) in <top (required)>'
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:31:25 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (26.2ms)
+  Rendered prospectts/new.html.erb within layouts/application (32.2ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (2.0ms)
+Completed 200 OK in 143ms (Views: 95.2ms | ActiveRecord: 23.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2018-06-16 15:31:32 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (34.7ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flashes.html.erb (1.7ms)
+Completed 200 OK in 194ms (Views: 139.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:31:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (18.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (2.0ms)
+Completed 200 OK in 106ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:34:08 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (23.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 129ms (Views: 98.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2018-06-16 15:34:14 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 15:34:21 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:34:23 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (19.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (23.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 132ms (Views: 95.6ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:36:06 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:8:in `block (2 levels) in <top (required)>'
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:36:25 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (29.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (31.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 136ms (Views: 102.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:37:55 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    get "/admin" => "devise/sessions#new" as: new_user_session
+                                            ^):
+  
+config/routes.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:39:50 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.2ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.4ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 125ms (Views: 100.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 15:39:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (30.9ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 273ms (Views: 154.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:40:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (19.6ms)
+  Rendered shared/_navbar.html.erb (2.2ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 111ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:40:51 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 125ms (Views: 85.2ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:41:02 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (13.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 109ms (Views: 84.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 15:48:35 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:48:43 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:49:07 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:49:19 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:51:08 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:51:27 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:51:38 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:51:49 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+as :user do
+    ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+config/routes.rb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:51:58 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected keyword_do_block
+/Users/mathieuabeille/code/Eva/config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+config/routes.rb:9: syntax error, unexpected keyword_do_block
+config/routes.rb:21: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:52:06 +0200
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+config/routes.rb:8:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:53:01 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:10:in `block (2 levels) in <top (required)>'
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 15:53:24 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  delete 'signout', to: 'devise/sessions#destroy',
+          ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+  delete 'signout', to: 'devise/sessions#destroy',
+                   ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+/Users/mathieuabeille/code/Eva/config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:09:10 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  delete 'signout', to: 'devise/sessions#destroy',
+          ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+  delete 'signout', to: 'devise/sessions#destroy',
+                   ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+/Users/mathieuabeille/code/Eva/config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:12: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:09:23 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (24.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (28.0ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (4.4ms)
+Completed 200 OK in 182ms (Views: 101.9ms | ActiveRecord: 55.7ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:09:35 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (47.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (2.6ms)
+Completed 200 OK in 263ms (Views: 168.6ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:10:04 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:10:in `block (2 levels) in <top (required)>'
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:10:27 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:10:in `block (2 levels) in <top (required)>'
+config/routes.rb:9:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:11:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:12:04 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/mathieuabeille/code/Eva/config/routes.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:10: syntax error, unexpected '\n', expecting =>
+config/routes.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:12:22 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:10: syntax error, unexpected ':', expecting keyword_end
+    get "/sign_up" => to: "devise/registrations#new",a...
+                         ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:10: syntax error, unexpected ',', expecting keyword_end
+...to: "devise/registrations#new",as: "new_user_registration" #...
+...                               ^):
+  
+config/routes.rb:10: syntax error, unexpected ':', expecting keyword_end
+config/routes.rb:10: syntax error, unexpected ',', expecting keyword_end
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:34:44 +0200
+  [1m[35m (4.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/signin" for 127.0.0.1 at 2018-06-16 16:34:48 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:34:52 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (1546.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (1549.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 1636ms (Views: 1603.6ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2018-06-16 16:35:11 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (343.0ms)
+Completed 500 Internal Server Error in 420ms (ActiveRecord: 6.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_session_path' for #<ActionDispatch::Routing::RoutesProxy:0x00007fab0ad7c9d8>):
+    2: <div style="width: 40vw; margin:auto;">
+    3:   <div class="boxform column-form">
+    4: 
+    5:     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    6:       <div class="form-inputs">
+    7:         <%= f.input :email, required: false, autofocus: true %>
+    8:         <%= f.input :password, required: false %>
+  
+app/views/devise/sessions/new.html.erb:5:in `_app_views_devise_sessions_new_html_erb__408690703783376902_70186299092140'
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 16:35:22 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:35:24 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:35:57 +0200
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected ':', expecting keyword_end
+    get "/sign_up" => to: "devise/registrations#new",a...
+                         ^
+/Users/mathieuabeille/code/Eva/config/routes.rb:9: syntax error, unexpected ',', expecting keyword_end
+...to: "devise/registrations#new",as: "new_user_registration" #...
+...                               ^):
+  
+config/routes.rb:9: syntax error, unexpected ':', expecting keyword_end
+config/routes.rb:9: syntax error, unexpected ',', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:36:00 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:36:34 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (18.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (21.0ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 98ms (Views: 76.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:38:37 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_registration' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:9:in `block (2 levels) in <top (required)>'
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:43:54 +0200
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (1517.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (1520.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 1603ms (Views: 1580.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 16:44:01 +0200
+Processing by SalonsController#index as HTML
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:44:01 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (17.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 75.7ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 16:44:06 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (19.1ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 16:44:18 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.0ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:44:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 75ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:46:00 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (53.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (60.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 306ms (Views: 265.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 16:46:08 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 16:46:17 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 2.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_registration_path' for #<Module:0x00007f89a0232798>
+Did you mean?  user_session_path):
+    1: <h2>Sign up</h2>
+    2: 
+    3: <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= f.error_notification %>
+    5: 
+    6:   <div class="form-inputs">
+  
+app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4041654947924007554_70114616497480'
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:46:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:46:25 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zzY1mdAcMUP51XcRVOY0tDt+hFcXuDEQ+oQcqkBkQK34F5I8CjtVea0w7qn4VfPqMjI3D9isNgk8SqtgkD/PQ==", "user"=>{"email"=>"mathieu.abeille@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (69.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mathieu.abeille@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (34.0ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", "2018-06-16 14:46:25.966608"], ["last_sign_in_at", "2018-05-27 16:54:07.762273"], ["sign_in_count", 6], ["updated_at", "2018-06-16 14:46:25.970624"], ["id", 1]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons
+Completed 302 Found in 319ms (ActiveRecord: 104.9ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 16:46:26 +0200
+Processing by SalonsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/index.html.erb within layouts/application
+  [1m[36mSalon Load (0.6ms)[0m  [1m[34mSELECT "salons".* FROM "salons"[0m
+  Rendered salons/index.html.erb within layouts/application (18.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (2.3ms)
+Completed 200 OK in 89ms (Views: 77.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 16:46:51 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:46:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:46:54 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (30.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (35.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 115ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2018-06-16 16:47:08 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:50:33 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:11:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:51:28 +0200
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:11:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:51:38 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (26.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (29.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 123ms (Views: 93.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:51:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 143ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:51:45 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (42.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (48.7ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flashes.html.erb (2.0ms)
+Completed 200 OK in 191ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:51:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:51:50 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (21.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 103ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 16:51:52 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sign_out"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 16:52:00 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:52:01 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (18.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (22.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 87ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-06-16 16:52:09 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:52:16 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:54:25 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (24.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (26.8ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (2.5ms)
+Completed 200 OK in 145ms (Views: 102.9ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:54:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 38ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:54:32 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (21.5ms)
+  Rendered prospectts/new.html.erb within layouts/application (23.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 16:54:33 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sign_out"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 16:54:57 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 16:55:06 +0200
+Processing by Devise::SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:55:06 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (25.1ms)
+  Rendered prospectts/new.html.erb within layouts/application (28.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 204ms (Views: 108.5ms | ActiveRecord: 36.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:55:20 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (26.3ms)
+  Rendered prospectts/new.html.erb within layouts/application (28.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 101ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:55:25 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (13.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 93ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-06-16 16:55:27 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T0pcFq/vj4m1AiZQXGlabHk6zIZZjMIBwMiynPRAMTc8gt/AcS3cd2SejZs3kC1bn9eTtwCJoHaGECRAylvPwg==", "user"=>{"email"=>"mathieu.abeille@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mathieu.abeille@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", "2018-06-16 14:55:27.831556"], ["last_sign_in_at", "2018-06-16 14:46:25.966608"], ["sign_in_count", 7], ["updated_at", "2018-06-16 14:55:27.833683"], ["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:55:27 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (44.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (47.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 124ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:55:34 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:55:34 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (29.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (32.6ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 118ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 16:55:35 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:55:35 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (16.1ms)
+  Rendered prospectts/new.html.erb within layouts/application (19.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 98ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 16:55:48 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 96ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/eva" for 127.0.0.1 at 2018-06-16 16:55:55 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/eva"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 16:56:01 +0200
+Processing by SalonsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:56:01 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (18.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (19.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons" for 127.0.0.1 at 2018-06-16 16:56:14 +0200
+Processing by SalonsController#index as HTML
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:56:14 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (46.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (2.9ms)
+Completed 200 OK in 162ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 16:57:16 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (21.4ms)
+  Rendered prospectts/new.html.erb within layouts/application (23.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 131ms (Views: 91.2ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/users/sign_u%5E" for 127.0.0.1 at 2018-06-16 16:57:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_u%5E"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-16 16:57:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 16:57:38 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (122.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 277ms (Views: 208.4ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2018-06-16 16:57:42 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/sign_up"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/B21zukt938lama272kutoni" for 127.0.0.1 at 2018-06-16 16:58:15 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hjyymhgh" for 127.0.0.1 at 2018-06-16 17:08:07 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/hjyymhgh"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.4.3) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.4) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:24:11 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (66.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (74.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 200ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:26:56 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (57.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (66.5ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 4791ms (Views: 4762.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:42:47 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (104.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (115.7ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 299ms (Views: 283.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:43:55 +0200
+Processing by SalonsController#new as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 17:43:55 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (19.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (2.2ms)
+Completed 200 OK in 100ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:44:06 +0200
+Processing by SalonsController#new as HTML
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 17:44:06 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (47.1ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 186ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sign_in" for 127.0.0.1 at 2018-06-16 17:44:26 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OSRsv0Mi9MMwadKyidFGVSwT0lpqiuzI4Q51ar0hnuIPpYofsUdPbSHWYKaB0uj/ps8T1e2BdHWvW6BqNaL2qA==", "user"=>{"email"=>"mathieu.abeille@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "mathieu.abeille@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", "2018-06-16 15:44:26.473203"], ["last_sign_in_at", "2018-06-16 14:55:27.831556"], ["sign_in_count", 8], ["updated_at", "2018-06-16 15:44:26.476962"], ["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/salons/new
+Completed 302 Found in 224ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:44:26 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (61.3ms)
+  Rendered salons/new.html.erb within layouts/application (64.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (2.3ms)
+Completed 200 OK in 274ms (Views: 167.8ms | ActiveRecord: 12.3ms)
+
+
+Started GET "/prospectts/new" for 127.0.0.1 at 2018-06-16 17:44:31 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (108.7ms)
+  Rendered prospectts/new.html.erb within layouts/application (116.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 272ms (Views: 246.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:44:36 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (17.0ms)
+  Rendered prospectts/new.html.erb within layouts/application (19.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:44:39 +0200
+Processing by SalonsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (59.6ms)
+  Rendered salons/new.html.erb within layouts/application (69.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 140ms (Views: 134.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 17:44:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:44:54 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (26.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (30.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 104ms (Views: 99.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_out" for 127.0.0.1 at 2018-06-16 17:44:55 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:44:55 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (17.9ms)
+  Rendered prospectts/new.html.erb within layouts/application (20.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 90ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:45:15 +0200
+Processing by SalonsController#new as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-16 17:45:15 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (16.8ms)
+  Rendered prospectts/new.html.erb within layouts/application (18.7ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 84ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 17:45:20 +0200
+Processing by SalonsController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for 127.0.0.1 at 2018-06-16 17:45:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prospectts/new" for 127.0.0.1 at 2018-06-16 17:45:26 +0200
+Processing by ProspecttsController#new as HTML
+  Rendering prospectts/new.html.erb within layouts/application
+  Rendered prospectts/_form.html.erb (22.6ms)
+  Rendered prospectts/new.html.erb within layouts/application (24.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 104ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(999550190689486590)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RenameProspectts (20180616162723)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (30.2ms)[0m  [1m[35mALTER TABLE "prospectts" RENAME TO "annonceur"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "public"."prospectts_id_seq" RENAME TO "annonceur_id_seq"[0m
+  [1m[35m (2.9ms)[0m  [1m[35mALTER INDEX "prospectts_pkey" RENAME TO "annonceur_pkey"[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180616162723"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(999550190689486590)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-06-16 18:30:46 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnnonceursController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mathieuabeille/code/Eva/app/models/annonceur.rb:1: class/module name must be CONSTANT
+class annonceur < ApplicationRecord
+                 ^):
+  
+app/models/annonceur.rb:1: class/module name must be CONSTANT
+app/controllers/annonceurs_controller.rb:17:in `new'
+Started GET "/" for 127.0.0.1 at 2018-06-16 18:31:39 +0200
+Processing by AnnonceursController#new as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 8.0ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "annonceurs" does not exist
+LINE 8:                WHERE a.attrelid = '"annonceurs"'::regclass
+                                          ^
+:               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+                     c.collname, col_description(a.attrelid, a.attnum) AS comment
+                FROM pg_attribute a
+                LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+                LEFT JOIN pg_type t ON a.atttypid = t.oid
+                LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+               WHERE a.attrelid = '"annonceurs"'::regclass
+                 AND a.attnum > 0 AND NOT a.attisdropped
+               ORDER BY a.attnum
+):
+  
+app/controllers/annonceurs_controller.rb:17:in `new'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(999550190689486590)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RenameAnnonceur (20180616163431)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "annonceur" RENAME TO "annonceurs"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "public"."annonceur_id_seq" RENAME TO "annonceurs_id_seq"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER INDEX "annonceur_pkey" RENAME TO "annonceurs_pkey"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180616163431"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(999550190689486590)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-06-16 18:35:51 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (1467.1ms)
+  Rendered annonceurs/new.html.erb within layouts/application (1470.5ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 1551ms (Views: 1530.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 18:35:59 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (45.4ms)
+  Rendered salons/new.html.erb within layouts/application (50.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 202ms (Views: 116.0ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/annonceurs/new" for 127.0.0.1 at 2018-06-16 18:36:05 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (23.8ms)
+  Rendered annonceurs/new.html.erb within layouts/application (26.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 97ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-06-16 18:42:23 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (84.8ms)
+  Rendered salons/new.html.erb within layouts/application (92.4ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flashes.html.erb (1.4ms)
+Completed 200 OK in 229ms (Views: 199.1ms | ActiveRecord: 0.0ms)
+
+
