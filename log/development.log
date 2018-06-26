@@ -13982,3 +13982,23 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-24 16:07:51 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (206.6ms)
+  Rendered annonceurs/new.html.erb within layouts/application (221.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 845ms (Views: 384.5ms | ActiveRecord: 111.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-24 18:16:44 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (69.9ms)
+  Rendered annonceurs/new.html.erb within layouts/application (79.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 206ms (Views: 199.9ms | ActiveRecord: 0.0ms)
+
+
