@@ -14002,3 +14002,1136 @@ Processing by AnnonceursController#new as HTML
 Completed 200 OK in 206ms (Views: 199.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-21 00:55:28 +0200
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (1570.2ms)
+  Rendered annonceurs/new.html.erb within layouts/application (1573.1ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 1670ms (Views: 1625.1ms | ActiveRecord: 30.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:05:14 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (63.7ms)
+  Rendered annonceurs/new.html.erb within layouts/application (71.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 4833ms (Views: 4822.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:06:20 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (16.2ms)
+  Rendered annonceurs/new.html.erb within layouts/application (18.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 75ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:06:50 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (15.8ms)
+  Rendered annonceurs/new.html.erb within layouts/application (17.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:07:05 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (23.8ms)
+  Rendered annonceurs/new.html.erb within layouts/application (26.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3913ms (Views: 3909.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:07:42 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (19.3ms)
+  Rendered annonceurs/new.html.erb within layouts/application (22.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3740ms (Views: 3736.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 01:08:36 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (43.1ms)
+  Rendered annonceurs/new.html.erb within layouts/application (46.6ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.3ms)
+Completed 200 OK in 132ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:08:39 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (32.5ms)
+  Rendered salons/new.html.erb within layouts/application (36.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 141ms (Views: 93.2ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:09:05 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.7ms)
+  Rendered salons/new.html.erb within layouts/application (22.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 81ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:09:36 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (46.9ms)
+  Rendered salons/new.html.erb within layouts/application (52.8ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 134ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:09:56 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (29.6ms)
+  Rendered salons/new.html.erb within layouts/application (31.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4364ms (Views: 4361.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:10:41 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.3ms)
+  Rendered salons/new.html.erb within layouts/application (20.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 81ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:11:13 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (54.6ms)
+  Rendered salons/new.html.erb within layouts/application (57.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 145ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:11:36 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (22.0ms)
+  Rendered salons/new.html.erb within layouts/application (24.1ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 4004ms (Views: 4001.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:12:01 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (20.6ms)
+  Rendered salons/new.html.erb within layouts/application (24.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4657ms (Views: 4655.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:12:26 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.4ms)
+  Rendered salons/new.html.erb within layouts/application (20.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3266ms (Views: 3264.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:13:12 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.1ms)
+  Rendered salons/new.html.erb within layouts/application (19.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 73ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:13:24 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (13.0ms)
+  Rendered salons/new.html.erb within layouts/application (16.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3596ms (Views: 3594.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:13:58 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.3ms)
+  Rendered salons/new.html.erb within layouts/application (21.5ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3607ms (Views: 3602.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:14:46 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.0ms)
+  Rendered salons/new.html.erb within layouts/application (21.6ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:15:25 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.5ms)
+  Rendered salons/new.html.erb within layouts/application (18.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 75ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:15:31 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (15.4ms)
+  Rendered salons/new.html.erb within layouts/application (18.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:16:16 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.6ms)
+  Rendered salons/new.html.erb within layouts/application (19.4ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 76ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:17:00 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (13.8ms)
+  Rendered salons/new.html.erb within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3778ms (Views: 3776.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:20:46 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (106.9ms)
+  Rendered salons/new.html.erb within layouts/application (113.2ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 225ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:21:03 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.9ms)
+  Rendered salons/new.html.erb within layouts/application (27.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:23:17 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (91.4ms)
+  Rendered salons/new.html.erb within layouts/application (104.4ms)
+Completed 500 Internal Server Error in 1591ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  min-height": expected "{", was "; 30vh;"):
+    17: 
+    18:     <%= csrf_meta_tags %>
+    19:     <%= action_cable_meta_tag %>
+    20:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    21:     <%= favicon_link_tag 'favicon.png' %>
+    22:     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    23:   </head>
+  
+app/assets/stylesheets/components/_navbar.scss:302
+app/assets/stylesheets/components/_index.scss:3
+app/assets/stylesheets/application.scss:14
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___3729910059427183124_70301855827400'
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:23:30 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (22.1ms)
+  Rendered salons/new.html.erb within layouts/application (24.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3928ms (Views: 3925.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:23:56 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (67.9ms)
+  Rendered salons/new.html.erb within layouts/application (74.8ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 170ms (Views: 159.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:24:24 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (28.3ms)
+  Rendered salons/new.html.erb within layouts/application (31.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 97ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:26:46 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (92.7ms)
+  Rendered salons/new.html.erb within layouts/application (98.2ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4464ms (Views: 4452.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:27:14 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.9ms)
+  Rendered salons/new.html.erb within layouts/application (22.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 88ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:28:07 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (74.3ms)
+  Rendered salons/new.html.erb within layouts/application (86.7ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4215ms (Views: 4205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:28:39 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.7ms)
+  Rendered salons/new.html.erb within layouts/application (22.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3400ms (Views: 3398.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:28:51 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (20.0ms)
+  Rendered salons/new.html.erb within layouts/application (22.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3760ms (Views: 3757.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:29:08 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.1ms)
+  Rendered salons/new.html.erb within layouts/application (23.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 80ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:29:32 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.7ms)
+  Rendered salons/new.html.erb within layouts/application (19.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 77ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:30:00 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (23.4ms)
+  Rendered salons/new.html.erb within layouts/application (25.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3902ms (Views: 3900.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:30:29 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.1ms)
+  Rendered salons/new.html.erb within layouts/application (21.0ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:31:04 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.2ms)
+  Rendered salons/new.html.erb within layouts/application (24.0ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 3690ms (Views: 3687.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:33:11 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (100.1ms)
+  Rendered salons/new.html.erb within layouts/application (103.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 4312ms (Views: 4304.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:33:36 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.7ms)
+  Rendered salons/new.html.erb within layouts/application (22.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3999ms (Views: 3996.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:34:11 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.2ms)
+  Rendered salons/new.html.erb within layouts/application (18.1ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 76ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:35:12 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.4ms)
+  Rendered salons/new.html.erb within layouts/application (19.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3844ms (Views: 3841.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:38:42 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (102.7ms)
+  Rendered salons/new.html.erb within layouts/application (111.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 226ms (Views: 216.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:40:33 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (40.6ms)
+  Rendered salons/new.html.erb within layouts/application (43.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 140ms (Views: 130.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:40:45 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (28.0ms)
+  Rendered salons/new.html.erb within layouts/application (30.6ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 111ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:42:59 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (79.0ms)
+  Rendered salons/new.html.erb within layouts/application (86.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4167ms (Views: 4154.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:43:17 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (25.8ms)
+  Rendered salons/new.html.erb within layouts/application (28.2ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 3548ms (Views: 3544.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:43:28 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.8ms)
+  Rendered salons/new.html.erb within layouts/application (19.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3242ms (Views: 3239.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:43:57 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.6ms)
+  Rendered salons/new.html.erb within layouts/application (22.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3546ms (Views: 3542.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:44:51 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.8ms)
+  Rendered salons/new.html.erb within layouts/application (24.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 90ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:44:54 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.6ms)
+  Rendered salons/new.html.erb within layouts/application (20.2ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 76ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:44:57 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.5ms)
+  Rendered salons/new.html.erb within layouts/application (18.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:45:13 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (15.3ms)
+  Rendered salons/new.html.erb within layouts/application (18.8ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:51:00 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (74.9ms)
+  Rendered salons/new.html.erb within layouts/application (82.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 197ms (Views: 186.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:51:57 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (36.1ms)
+  Rendered salons/new.html.erb within layouts/application (38.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (1.8ms)
+Completed 200 OK in 120ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:52:00 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (28.4ms)
+  Rendered salons/new.html.erb within layouts/application (30.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 93ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:52:27 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (28.5ms)
+  Rendered salons/new.html.erb within layouts/application (30.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:53:09 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.0ms)
+  Rendered salons/new.html.erb within layouts/application (26.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 92ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:53:18 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (31.4ms)
+  Rendered salons/new.html.erb within layouts/application (33.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 99ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:53:25 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (20.7ms)
+  Rendered salons/new.html.erb within layouts/application (22.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4066ms (Views: 4064.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:54:05 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.1ms)
+  Rendered salons/new.html.erb within layouts/application (26.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (1.2ms)
+Completed 200 OK in 3765ms (Views: 3762.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:54:26 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.7ms)
+  Rendered salons/new.html.erb within layouts/application (21.7ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 3534ms (Views: 3532.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:54:42 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (15.3ms)
+  Rendered salons/new.html.erb within layouts/application (17.1ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3204ms (Views: 3202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:54:51 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.7ms)
+  Rendered salons/new.html.erb within layouts/application (22.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:54:57 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.0ms)
+  Rendered salons/new.html.erb within layouts/application (18.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 3343ms (Views: 3341.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:55:07 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (14.7ms)
+  Rendered salons/new.html.erb within layouts/application (17.2ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3173ms (Views: 3171.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:55:20 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.9ms)
+  Rendered salons/new.html.erb within layouts/application (21.5ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3099ms (Views: 3097.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:55:32 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.0ms)
+  Rendered salons/new.html.erb within layouts/application (18.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3624ms (Views: 3621.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:56:04 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.5ms)
+  Rendered salons/new.html.erb within layouts/application (20.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 79ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:57:43 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (83.7ms)
+  Rendered salons/new.html.erb within layouts/application (91.3ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 4153ms (Views: 4143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:58:03 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.0ms)
+  Rendered salons/new.html.erb within layouts/application (22.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 87ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:59:27 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (27.4ms)
+  Rendered salons/new.html.erb within layouts/application (30.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3597ms (Views: 3594.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 01:59:56 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.6ms)
+  Rendered salons/new.html.erb within layouts/application (24.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 87ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:00:08 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.2ms)
+  Rendered salons/new.html.erb within layouts/application (19.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 77ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:00:27 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (14.2ms)
+  Rendered salons/new.html.erb within layouts/application (15.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3601ms (Views: 3599.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:00:40 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.9ms)
+  Rendered salons/new.html.erb within layouts/application (20.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3425ms (Views: 3422.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:00:58 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.6ms)
+  Rendered salons/new.html.erb within layouts/application (21.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 3296ms (Views: 3294.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:01:08 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.3ms)
+  Rendered salons/new.html.erb within layouts/application (20.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3259ms (Views: 3256.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:01:29 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (120.6ms)
+  Rendered salons/new.html.erb within layouts/application (123.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.4ms)
+Completed 200 OK in 174ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:01:49 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.6ms)
+  Rendered salons/new.html.erb within layouts/application (18.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:04:03 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (112.2ms)
+  Rendered salons/new.html.erb within layouts/application (119.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 4115ms (Views: 4100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:04:22 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.2ms)
+  Rendered salons/new.html.erb within layouts/application (26.3ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 3506ms (Views: 3502.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:04:38 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.3ms)
+  Rendered salons/new.html.erb within layouts/application (27.1ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 3184ms (Views: 3181.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:05:04 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (18.5ms)
+  Rendered salons/new.html.erb within layouts/application (20.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 3321ms (Views: 3318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:05:26 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (15.3ms)
+  Rendered salons/new.html.erb within layouts/application (18.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3510ms (Views: 3507.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:05:53 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (202.6ms)
+  Rendered salons/new.html.erb within layouts/application (237.2ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 4652ms (Views: 4614.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:06:12 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (21.3ms)
+  Rendered salons/new.html.erb within layouts/application (24.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 3651ms (Views: 3646.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:06:25 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (24.1ms)
+  Rendered salons/new.html.erb within layouts/application (27.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 92ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:06:30 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.2ms)
+  Rendered salons/new.html.erb within layouts/application (18.5ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 72ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:06:40 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (16.8ms)
+  Rendered salons/new.html.erb within layouts/application (18.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 3676ms (Views: 3674.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:07:41 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (17.7ms)
+  Rendered salons/new.html.erb within layouts/application (20.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 80ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/salons/new" for 127.0.0.1 at 2018-07-21 02:07:50 +0200
+Processing by SalonsController#new as HTML
+  Rendering salons/new.html.erb within layouts/application
+  Rendered salons/_form.html.erb (19.0ms)
+  Rendered salons/new.html.erb within layouts/application (21.1ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 105ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:07:55 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (21.5ms)
+  Rendered annonceurs/new.html.erb within layouts/application (23.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 88ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:08:43 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (26.0ms)
+  Rendered annonceurs/new.html.erb within layouts/application (28.1ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 101ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:09:16 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (29.1ms)
+  Rendered annonceurs/new.html.erb within layouts/application (31.5ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:11:04 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (67.3ms)
+  Rendered annonceurs/new.html.erb within layouts/application (74.0ms)
+  Rendered shared/_navbar.html.erb (1.9ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 191ms (Views: 180.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:11:21 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (31.2ms)
+  Rendered annonceurs/new.html.erb within layouts/application (33.3ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 102ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:13:40 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (54.8ms)
+  Rendered annonceurs/new.html.erb within layouts/application (61.8ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (1.0ms)
+Completed 200 OK in 162ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:13:59 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (29.5ms)
+  Rendered annonceurs/new.html.erb within layouts/application (31.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.6ms)
+Completed 200 OK in 111ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:14:30 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (23.5ms)
+  Rendered annonceurs/new.html.erb within layouts/application (26.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.8ms)
+Completed 200 OK in 92ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:14:44 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (35.3ms)
+  Rendered annonceurs/new.html.erb within layouts/application (48.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 129ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:16:39 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (67.3ms)
+  Rendered annonceurs/new.html.erb within layouts/application (76.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.6ms)
+Completed 200 OK in 181ms (Views: 165.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:16:52 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (31.2ms)
+  Rendered annonceurs/new.html.erb within layouts/application (33.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+Completed 200 OK in 105ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:16:54 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (38.6ms)
+  Rendered annonceurs/new.html.erb within layouts/application (40.6ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 114ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:19:10 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (84.7ms)
+  Rendered annonceurs/new.html.erb within layouts/application (92.7ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (1.7ms)
+Completed 200 OK in 203ms (Views: 190.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:19:37 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (24.8ms)
+  Rendered annonceurs/new.html.erb within layouts/application (26.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+Completed 200 OK in 94ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:21:31 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (75.1ms)
+  Rendered annonceurs/new.html.erb within layouts/application (81.8ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flashes.html.erb (1.5ms)
+Completed 200 OK in 186ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:24:42 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (61.7ms)
+  Rendered annonceurs/new.html.erb within layouts/application (66.9ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flashes.html.erb (1.1ms)
+Completed 200 OK in 173ms (Views: 160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:25:28 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (19.4ms)
+  Rendered annonceurs/new.html.erb within layouts/application (21.8ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flashes.html.erb (0.9ms)
+Completed 200 OK in 4383ms (Views: 4380.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-21 02:25:33 +0200
+Processing by AnnonceursController#new as HTML
+  Rendering annonceurs/new.html.erb within layouts/application
+  Rendered annonceurs/_form.html.erb (17.2ms)
+  Rendered annonceurs/new.html.erb within layouts/application (19.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+

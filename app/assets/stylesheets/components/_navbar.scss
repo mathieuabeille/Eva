@@ -275,6 +275,10 @@ background-image:none !important   }
 
 .container {
   color: $gray;
+  background-color: #ffffff;
+  min-height: 70vh;
+  width: 100vw;
+
 }
 
 
@@ -286,4 +290,59 @@ background-image:none !important   }
 
 .logo-img {
   width: 250px;
+}
+
+.grille {
+  margin: none!important;
+  background-color: #f5f6f7;
+  min-height: 70vh;
+  width: 100vw;
+  overflow: hidden;
+h3{
+  color: $blue;
+    margin-top: 15vh;
+
+}
+p{
+  color: $gray;
+  padding: 10px;
+}
+}
+
+.cta{
+  background-color: $blue;
+  min-height: 37vh;
+padding: 10px;
+margin-bottom:15px;
+
+  h3{
+  color: #ffffff;
+ 
+
+}
+p{
+  padding:10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.btn-medium {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+
 }
